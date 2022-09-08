@@ -1,0 +1,14 @@
+header{
+  display: flex;
+}
+
+.navbar-header{
+  display: flex;
+}
+
+section {
+  height: calc(100vh - 192px);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
