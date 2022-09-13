@@ -12,3 +12,39 @@ section {
   justify-content: space-evenly;
   align-items: center;
 }
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.contain-nav-btn{
+  width: 35%;
+}
+
+.contain-nav-btn ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+li a{
+  text-decoration: none;
+}
+
+.contain-partners{
+  width: 80%;
+}
+
+.contain-partners ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.contain-partners ul li a{
+  color: whitesmoke;
+}
