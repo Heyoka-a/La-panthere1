@@ -27,6 +27,24 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.icons-contain ul{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.contain-partners{
+  text-align: center;
+}
+
+.contain-partners ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 18px;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -723,11 +741,12 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
     color: #333333!important;
+    font-size: 18px;
 }
 
 .icons {
@@ -775,7 +794,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFA57B!important;
 }
 
 .btn-atomic-tangerine {
@@ -1038,5 +1057,19 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .contain-partners {
+      text-align: center;
+    }
+
+    .contain-partners ul {
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px 18px;
+    }
+    .infos-in-contact-page{
+      text-align: center;
     }
 }
