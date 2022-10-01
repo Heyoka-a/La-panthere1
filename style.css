@@ -45,6 +45,12 @@ a:hover {
   gap: 8px 18px;
 }
 
+.title-on-bottom{
+  color: white;
+  width: 40%;
+  margin: auto;
+}
+
 .bloc {
     width: 100%;
     clear: both;
