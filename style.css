@@ -27,13 +27,44 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+input::placeholder{
+  color: black !important;
+}
+
+textarea::placeholder{
+  color: black !important;
+}
+
+.hover-element:hover{
+  color: whitesmoke;
+}
+
+.black{
+  color: black;
+}
+
+.social i{
+  font-size: 32px;
+}
+
+.social i:hover {
+  color: whitesmoke;
+}
+
 .icons-contain ul{
-  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
 }
+
+.icons-contain{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
 .contain-partners{
   text-align: center;
 }
@@ -46,9 +77,28 @@ a:hover {
 }
 
 .title-on-bottom{
-  color: white;
+  color: black;
   width: 40%;
   margin: auto;
+  background-color: rgba(255, 255, 255, 0.64);
+  opacity: 0.8;
+  border-radius: 12px;
+  padding: 4px;
+}
+
+.div-on-banner{
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.64);
+  border-radius: 4px;
+}
+
+.link-on-third{
+  text-align: center;
+}
+
+.link-on-third a{
+  text-decoration: none;
+  color: black;
 }
 
 .bloc {
@@ -104,7 +154,7 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
+/* .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -112,12 +162,12 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}
+} */
 
-.texture-paper::before {
+/* .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+} */
 
 .b-parallax {
     background-attachment: fixed;
@@ -153,7 +203,6 @@ a:hover {
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
@@ -217,10 +266,10 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
+/* .d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, .5);
-}
+} */
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -724,7 +773,6 @@ p {
 }
 
 .social {
-    max-width: 400px;
     margin: auto auto auto auto;
 }
 
@@ -751,7 +799,7 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
     font-size: 18px;
 }
 
@@ -1077,5 +1125,17 @@ h4 {
     }
     .infos-in-contact-page{
       text-align: center;
+    }
+    .div-on-banner{
+      width: 60%;
+    }
+    .black-background{
+      padding: 10px;
+    }
+    .title-on-bottom{
+      width: 60%;
+    }
+    .social{
+      margin: auto 24px auto auto;
     }
 }

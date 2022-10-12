@@ -34,14 +34,14 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
             alt="Logo représentant une panthere accopagné du nom La Panthere" height="40" /></a>
-        <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
+        <button aria-label="Boutton d'accès" id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
           data-target=".navbar-1">
           <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
             class="icon-bar"></span><span class="icon-bar"></span>
         </button>
       </div>
       <nav class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-        <ul class="site-navigation nav navbar-nav">
+        <ul class="site-navigation nav navbar-nav black">
           <li>
             <a href="index.html" aria-label="Navigation vers l'accueil">Accueil</a>
           </li>
@@ -58,20 +58,20 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1-presentation -->
-<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
-	<div class="container bloc-lg">
-		<div class="row tight-width-whitespace">
-			<div class="col-sm-12">
+<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax bloc-lg" id="bloc-1-hero">
+	<!-- <div class="container bloc-lg"> -->
+		<div class="row tight-width-whitespace div-on-banner">
+			<!-- <div class="col-sm-12"> -->
 				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo de l'agence La Panthere noir sur fond blanc" />
-				<h1 class="text-center hero-bloc-text tc-white">
+				<h1 class="text-center hero-bloc-text">
 					Agence La Panthère
 				</h1>
 				<div class="text-center">
 					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero" aria-label="Navigation vers la page de contact">Contact</a>
 				</div>
 			</div>
-		</div>
-	</div>
+		<!-- </div> -->
+	<!-- </div> -->
 </div>
 <!-- bloc-1-presentation END -->
 
@@ -103,7 +103,7 @@
 					Stratégie
 				</h3>
 				<p class="text-center ">
-					Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
+					Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.
 				</p>
 			</div>
 			<div class="col-sm-4">
@@ -136,12 +136,15 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
-				<h3 class="mg-md text-center tc-white">
-					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
+				<h3 class="mg-md text-center">
+					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .
 				</h3>
-				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a><br>
+				<p class="text-center black">
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche.
 				</p>
+        <div class="link-on-third">
+          <a class="bold-link" href="contact.html">Contactez notre équipe</a>
+        </div>
 			</div>
 		</div>
 	</div>
@@ -158,7 +161,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb" aria-label="Image cliquable menant vers le projet concerné"><img src="img/1.jpg" alt="photo représentant des journeaux" class="img-responsive portfolio-thumb" /></a>
+				<a href="#" data-lightbox="journal.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb" aria-label="Image cliquable menant vers le projet concerné"><img src="./img/journal.jpg" alt="photo représentant des journeaux" class="img-responsive portfolio-thumb" /></a>
 				<h4 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h4>
@@ -167,7 +170,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb" aria-label="Image cliquable menant vers le projet concerné"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="photo représentant une photographe prenant des photos en exterieur" /></a>
+				<a href="#" data-lightbox="photographe.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb" aria-label="Image cliquable menant vers le projet concerné"><img src="./img/photographe.jpg" class="img-responsive portfolio-thumb" alt="photo représentant une photographe prenant des photos en exterieur" /></a>
 				<h4 class="mg-md text-center">
 					Création d'un site web pour photographes
 				</h4>
@@ -178,7 +181,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb" aria-label="Image cliquable menant vers le projet concerné"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="photo représentant un kit tel que PC et appareils photos pour partir en voyage"/></a>
+				<a href="#" data-lightbox="mariage.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb" aria-label="Image cliquable menant vers le projet concerné"><img src="./img/mariage.bmp" class="img-responsive portfolio-thumb" alt="photo représentant un kit tel que PC et appareils photos pour partir en voyage"/></a>
 				<h4 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h4>
@@ -187,7 +190,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb" aria-label="Image cliquable menant vers le projet concerné"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="photo représentant des gens travaillant sur PC et faire part de mariage" /></a>
+				<a href="#" data-lightbox="materiel.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb" aria-label="Image cliquable menant vers le projet concerné"><img src="./img/materiel.bmp" class="img-responsive portfolio-thumb" alt="photo représentant des gens travaillant sur PC et faire part de mariage" /></a>
 				<h4 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h4>
@@ -220,26 +223,23 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
-					Agence La Panthère - Agence web basée à Lyon.<br>
-				</p>
-        <div class="row row-no-gutters social icons-contain">
-          <ul>
-            <li><a class="social" href="index.html" aria-label="Twitter"><span class="fa fa-twitter icon-md"></span></a></li>
-            <li><a class="social" href="index.html" aria-label="Navigation vers Facebook"><span class="fa fa-facebook icon-md"></span></a></li>
-            <li><a class="social" href="index.html" aria-label="Navigation vers Dribble"><span class="fa fa-dribbble icon-md"></span></a></li>
-            <li><a class="social" href="index.html" aria-label="Navigation vers Instagram"><span class="fa fa-instagram icon-md"></span></a></li>
-          </ul>
-        </div>
+        <p class="text-center black">
+          Agence La Panthère - Agence web basée à Lyon.
+        </p>
+        <!-- <div > -->
+        <ul class="row row-no-gutters social icons-contain">
+          <li><a class="social" href="index.html"><i class="fa fa-twitter black"></i></a></li>
+          <li><a class="social" href="index.html"><i class="fa fa-facebook black"></i></a></li>
+          <li><a class="social" href="index.html"><i class="fa fa-dribbble black"></i></a></li>
+          <li><a class="social" href="index.html"><i class="fa fa-instagram black"></i></a></li>
+        </ul>
         <div class="contain-partners">
-          <h4 class="white">Nos partenaires</h4>
+          <h4 class="black">Nos partenaires</h4>
           <ul>
-            <li><a href="voiture.com">voiture.com</a></li>
-            <li><a href="pizza.com">pizza.com</a></li>
-            <li><a href="matoiture.com">matoiture.com</a></li>
-            <li><a href="immobilierseo.com">immobilierseo.com</a></li>
-            <li><a href="annuaireagence.com">annuaireagence.com</a></li>
-            <li><a href="backlink.com">backlink.com</a></li>
+            <li><a href="voiture.com" class="black">voiture.com</a></li>
+            <li><a href="pizza.com" class="black">pizza.com</a></li>
+            <li><a href="matoiture.com" class="black">matoiture.com</a></li>
+            <li><a href="annuaireagence.com" class="black">annuaireagence.com</a></li>
           </ul>
         </div>
 			</div>
